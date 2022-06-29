@@ -1,0 +1,80 @@
+body {
+    
+}
+
+header {
+    background-color: #303030;
+    /* border-radius:75px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-left: 35%;
+    margin-right: 35%; */
+}
+
+img{
+    width: 250px;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   }
+
+   .container{
+    background-image: url(fondo2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 72vh;
+   }
+
+   .quien {
+    padding-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'roboto';
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+   }
+
+   .quienes {
+    margin-top: 0px;
+   }
+
+   .especiales{
+    font-size: 25px;
+    margin-left: 6%;
+    font-family: roboto;
+    float: left;
+    text-align: left;
+   }
+
+   .fechas {
+    text-decoration: none;
+    color: #000;
+    display: block;
+   }
+
+   .especiales ul li:hover{
+    background-color: #ff7c85;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 20px 20px;
+   }
+
+
+
+
+
+
+
+
+
+
+   @font-face {
+
+    font-family: roboto;
+    
+    src: url(fonts/Roboto-Medium.ttf);
+    
+    }
