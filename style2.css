@@ -1,0 +1,44 @@
+html{
+    background-color: #ff8b2985;
+}
+
+header {
+    background-color: #303030;
+    border-radius:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-left: 35%;
+    margin-right: 35%; */
+}
+
+img.logo{
+    width: 250px;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   }
+
+   footer h1{
+       text-align: right;
+       margin-right: 5%;
+       margin-top: 10%;
+   }
+
+   .conejo{
+    width: 25%;
+    border-radius: 25%;
+    margin-top: 5%;
+    margin: 2%;
+    border: 8px solid #ad480d91;
+    transition: transform .5s;
+    }
+
+   .conejo:hover{
+       transform: scale(1.5);
+   }
+
+   .titulo{
+    font-size: 400%;
+    font-family: 'roboto';
+   }
