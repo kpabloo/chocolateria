@@ -11,7 +11,7 @@ header {
     margin-right: 35%; */
 }
 
-img{
+img.logo{
     width: 250px;
     display: block;
     margin: 0px auto;
@@ -25,8 +25,8 @@ img{
     background-image: url(fondo2.gif);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 57vh;
     border-radius: 55px;
+    padding-bottom: 1%;
    }
 
    .quien {
@@ -103,7 +103,36 @@ img{
     img.nuestrosProductos {
         width: 300px;
         border-radius: 50px;
+        float: left;
+        margin-left: 15%;
     }
+
+    img.nuestrosProductos2 {
+        width: 300px;
+        border-radius: 50px;
+        float: right;
+        margin-right: 15%;
+    }
+
+    img.nuestrosProductos3 {
+        width: 300px;
+        border-radius: 50px;
+    }
+
+    img.nuestrosProductos4 {
+        width: 300px;
+        border-radius: 50px;
+        float: left;
+        margin-left: 30%;
+    }
+
+    img.nuestrosProductos5 {
+        width: 300px;
+        border-radius: 50px;
+        float: right;
+        margin-right: 30%;
+    }
+
 
 
 
