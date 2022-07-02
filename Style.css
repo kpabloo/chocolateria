@@ -1,0 +1,119 @@
+html{
+    background-color: #ff8b2985;
+}
+
+header {
+    background-color: #303030;
+    border-radius:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-left: 35%;
+    margin-right: 35%; */
+}
+
+img{
+    width: 250px;
+    display: block;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   }
+
+   .container{
+    margin-top: 2%;
+    padding-top: 1%;
+    background-image: url(fondo2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 57vh;
+    border-radius: 55px;
+   }
+
+   .quien {
+    border-radius: 5%;
+    background-color: #f4ced4c4;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'roboto';
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+   }
+
+   .quienes {
+    margin:auto;
+   }
+
+   #hea {
+       font-size: 25px;
+       padding: 0px;
+       float: left;
+       width: 350px;
+       font-family: 'roboto';
+   }
+   #hea2 {
+       margin-right: 2%;
+        font-size: 25px;
+        padding: 0px;
+        float: right;
+        width: 350px;
+        font-family: 'roboto';
+}
+
+   ul, ol{
+       list-style: none;
+   }
+
+   .nav li a {
+       border-radius: 5px;
+       background-color: #e7778499;
+       text-decoration: none;
+       color:#000;
+       padding: 10px 15px;
+       display: block;
+   }
+
+   .nav li a:hover {
+    background-color: #f5adb5;
+    opacity: 0.8px;
+   }
+
+   .nav li ul {
+       display: none;
+       position: absolute;
+       min-height: 140px;
+    }
+
+    .nav li:hover > ul {
+        display: block;
+    }
+
+    .nav2{
+        margin-top: 60%;
+    }
+
+    .container2 h1{
+        text-align: center;
+        font-size: 50px;
+        font-family: "roboto";
+    }
+
+    img.nuestrosProductos {
+        width: 300px;
+        border-radius: 50px;
+    }
+
+
+
+
+
+
+   @font-face {
+
+    font-family: roboto;
+    
+    src: url(fonts/Roboto-Medium.ttf);
+    
+    }
