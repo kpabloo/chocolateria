@@ -133,6 +133,60 @@ img.logo{
         margin-right: 30%;
     }
 
+    .derecha{
+        padding: 0px 0px;
+        margin-right: 5%;
+        float: right;
+        font-family: 'roboto';
+        width: 20%;
+    }
+
+    .nav3 li a {
+        border-radius: 5px;
+        background-color: #e7778499;
+        text-decoration: none;
+        color:#000;
+        padding: 10px 15px;
+        display: block;
+    }
+ 
+    .nav3 li a:hover {
+     background-color: #f5adb5;
+     opacity: 0.8px;
+    }
+ 
+    .nav3 li ul {
+        display: none;
+        position: absolute;
+        min-height: 140px;
+     }
+ 
+     .nav3 li:hover > ul {
+         display: block;
+     }
+
+     .nav3{
+        padding-left: 5%;
+     }
+
+     .whatsapp{
+        width: 20%;
+        text-align: center; 
+     }
+
+     .mail {
+        margin: 0px 0px;
+        padding: 5px 5px;
+        background-color: #000000bf;
+        color: #fff1f2;
+        border-radius: 20px;
+        font-size: 140%;
+     }
+
+     .logos {
+        margin-top: 65%;
+     }
+
 
     
 
