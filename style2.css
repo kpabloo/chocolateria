@@ -1,5 +1,5 @@
 html{
-    background-color: #ff8b2985;
+    background-color: #000000bd;
 }
 
 header {
@@ -19,10 +19,15 @@ img.logo{
     padding-top: 20px;
    }
 
-   footer h1{
+   footer h1 a{
        text-align: right;
-       margin-right: 5%;
-       margin-top: 10%;
+       text-decoration: none;
+       background-color: #080808d1;
+       padding: 10px 15px;
+       border-radius: 10px;
+       color: #fff;
+       display: list-item;
+       padding-right: 2%;
    }
 
    .conejo{
@@ -39,6 +44,22 @@ img.logo{
    }
 
    .titulo{
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+    color: #fff;
     font-size: 400%;
-    font-family: 'roboto';
+    font-family: 'racing';
    }
+
+
+
+
+
+
+
+
+
+   @font-face {
+    font-family: racing;
+    src: url(fonts/Chunkfive\ Ex.ttf);
+}
