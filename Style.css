@@ -144,13 +144,14 @@ img.logo{
     }
 
     .nav3 li a {
-        border-radius: 5px;
+        border-radius: 10px;
         background-color: #080808d1;
         text-decoration: none;
         color:#fff;
         padding: 10px 15px;
         display: block;
         font-size: 25px;
+        margin-left: -15px;
     }
  
     .nav3 li a:hover {
@@ -196,7 +197,7 @@ img.logo{
      .blog{
         text-decoration: none;
         background-color: #080808d1;
-        padding: 10px 15px;
+        padding: 11px 15px;
         font-size: 25px;
         display: inline-block;
         border-radius: 10px;
