@@ -203,7 +203,17 @@ img.logo{
        .titulo {
         font-family: 'racing';
        }
+
+       .carousel .indicators .indicator-item.active{
+        background-color: #fff !important;
+       }
     
+       .carousel .indicators .indicator-item{
+        border-radius: 0px !important;
+        transform: rotate(45deg);
+        margin: 0 15px !important;
+        background-color: #303030 !important;
+       }
 
 
 
