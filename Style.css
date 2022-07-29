@@ -113,6 +113,7 @@ img.logo{
     }
 
     .nav3 li a {
+        margin-top: 20px;
         border-radius: 10px;
         background-color: #080808d1;
         text-decoration: none;
@@ -202,6 +203,7 @@ img.logo{
 
        .titulo {
         font-family: 'racing';
+        color: #fff;
        }
 
        .carousel .indicators .indicator-item.active{
